@@ -755,4 +755,4 @@ command(client, 'เช็คสาระ', (message) => {
 })
 
 
-client.login(process.env['token'])
+client.login(config.token)
